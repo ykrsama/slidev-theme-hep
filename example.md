@@ -5,8 +5,8 @@ class: text-left
 backgroud: '/ATLAS/ATLAS-Logo.png'
 authors:  # First author should be the presenter
   - First Author: ["Institution 1", "Institution 2"]
-  - Second Author: ["Institution 3"]
-  - Third Author: ["Institution 1", "Institution 3"] 
+  - Second Author: ["Institution 1"]
+  - Third Author: ["Institution 1"] 
 
 meeting: "presentation meeting"
 preTitle: "An Examle Title"
@@ -16,14 +16,15 @@ preTitle: "An Examle Title"
 <p style="color:#0FA3B1;">Don't explicitly put title on cover page 🥳 </p>
 <p style="color:#0FA3B1;">Put your own logo somewhere </p>
 
-<img id="ATLAS" src="/ATLAS/ATLAS-Logo.png"> </img>
+<img id="ATLAS" src="/DarkSHINE/DarkSHINE-Logo.png"> </img>
 
 <style scoped>
 #ATLAS {
   width: 180px;
   position: absolute;
-  right: 3%;
-  bottom: 4%;
+  left: 50%;
+  bottom: 12%;
+  transform: translateX(-50%);
   /* background-color: #2B90B6;
   background-image: linear-gradient(45deg, #4EC5D4 15%, #146b8c 50%); */
 }
