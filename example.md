@@ -2,6 +2,8 @@
 theme: ./
 layout: cover
 class: text-left
+transition: slide-left
+mdc: true
 backgroud: '/ATLAS/ATLAS-Logo.png'
 authors:  # First author should be the presenter
   - First Author: ["Institution 1", "Institution 2"]
@@ -13,14 +15,12 @@ preTitle: "An Example Title"
 ---
 
 <br>
-<p style="color:#0FA3B1;">Don't explicitly put title on cover page 🥳 </p>
-<p style="color:#0FA3B1;">Put your own logo somewhere </p>
 
-<img id="ATLAS" src="/ATLAS/ATLAS-Logo.png"> </img>
+<img id="ATLAS" src="/DarkSHINE/DarkSHINE-Logo.png"> </img>
 
 <style scoped>
 #ATLAS {
-  width: 180px;
+  width: 160px;
   position: absolute;
   right: 3%;
   bottom: 4%;
@@ -28,6 +28,21 @@ preTitle: "An Example Title"
   background-image: linear-gradient(45deg, #4EC5D4 15%, #146b8c 50%); */
 }
 </style>
+
+---
+layout: pageBar
+hideInToc: true
+---
+
+# Outline
+
+<br>
+
+<div class="flex justify-center items-center" style="height: 50vh;">
+
+### <Toc />
+
+</div>
 
 ---
 layout: pageBar

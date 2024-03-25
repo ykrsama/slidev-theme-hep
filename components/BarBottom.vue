@@ -25,7 +25,7 @@ export default {
     <div class="w-1/3 flex justify-end">
       <slot />
     </div>
-    <div class="w-1/40 p-0 mr-0"> <SlideCurrentNo /> / <SlidesTotal /> </div>
+    <div class="w-1/20 p-0 mr-0"> <SlideCurrentNo /> / <SlidesTotal /> </div>
   </div>
 </template>
 

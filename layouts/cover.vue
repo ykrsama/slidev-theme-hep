@@ -6,7 +6,7 @@ import { handleBackground, handleAuthor } from './layoutHelper'
 const props = defineProps({
   background: {
     type: String,
-    default: 'ATLAS/ATLAS-Detector.png',
+    default: 'DarkSHINE/darkshine-event-display.png',
   },
   authors: {
     type: Object as () => Record<string, string>,
@@ -73,7 +73,7 @@ console.log(instituteDict);
 
         <FootNote
         :filled="false"
-        :separator="true"
+        :separator="false"
         x="l"
         :footnotes="instituteDict"
       />

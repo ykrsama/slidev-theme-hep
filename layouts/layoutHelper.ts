@@ -14,8 +14,8 @@ export function handleBackground(background?: string, dim = false, opacity = 0.5
 
   // Adjusting the opacity in the linear-gradient
   const overlayColorStart = `rgba(255, 255, 255, ${opacity * 1.0})`; // Start color of the gradient
-  const overlayColorMid = `rgba(255, 255, 255, ${opacity * 0.95})`; // End color of the gradient
-  const overlayColorEnd = `rgba(255, 255, 255, ${opacity * 0.85})`; // End color of the gradient
+  const overlayColorMid = `rgba(255, 255, 255, ${opacity * 0.7})`; // End color of the gradient
+  const overlayColorEnd = `rgba(255, 255, 255, ${opacity * 0.4})`; // End color of the gradient
 
   const style: CSSProperties = {
     background: isColor

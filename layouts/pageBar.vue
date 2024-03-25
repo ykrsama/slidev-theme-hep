@@ -31,7 +31,7 @@
   top: 4%; /* Adjust as needed */
   left: 0; /* Adjust as needed */
   width: 3.5%; /* Adjust as needed */
-  height: 5.5rem; /* Adjust as needed */
+  height: 5.7rem; /* Adjust as needed */
   background: linear-gradient(45deg, #4ec4d4 15%, #146a8ce0 45%);
   animation: gradient-animation 5s ease infinite;
   background-size: 200% 200%;
